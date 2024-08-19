@@ -1,0 +1,393 @@
+<html><head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>EduAccess Zambia</title> 
+  <link rel="stylesheet" href="styles.css"> 
+ </head> 
+ <body> <!-- Header --> 
+  <header> 
+   <h1>EduAccess Zambia</h1> 
+   <p>Opening Doors to Education</p> 
+  </header> <!-- Navigation --> 
+  <nav> 
+   <ul> 
+    <li><a href="#home">Home</a></li> 
+    <li><a href="#about">About Us</a></li> 
+    <li><a href="#programs">Programs</a></li> 
+    <li><a href="#scholarships">Scholarships</a></li> 
+    <li><a href="#loans">Loans</a></li> 
+    <li><a href="#events">Events</a></li> 
+    <li><a href="#contact">Contact Us</a></li> 
+    <li><a href="#donate">Donate</a></li> 
+    <li><a href="#newsletter">Newsletter</a></li> 
+   </ul> 
+  </nav> <!-- Home Section --> 
+  <section id="home"> 
+   <h2>Welcome to EduAccess Zambia</h2> 
+   <p>Your gateway to educational opportunities and financial aid guidance.</p> 
+  </section> <!-- About Us Section --> 
+  <section id="about"> 
+   <h2>About Us</h2> 
+   <p>EduAccess Zambia is dedicated to providing Zambian youth with access to scholarships, financial aid, and guidance to help them achieve their academic goals. We believe that by equipping students with the right resources, we can inspire them to excel in their studies and pursue higher education.</p> 
+  </section> <!-- Programs Section --> 
+  <section id="programs"> 
+   <h2>Our Programs</h2> 
+   <p>We offer a variety of programs aimed at supporting students in their educational journey, including scholarship guidance, study abroad expos, and application assistance.</p> 
+  </section> <!-- Scholarships Section --> 
+  <section id="scholarships"> 
+   <h2>Scholarships</h2> 
+   <ul> 
+    <li onclick="showDetails('scholarship1')">Cavendish University Merit Scholarships <span class="arrow">▼</span></li> 
+    <div id="scholarship1" class="details"> 
+     <p>Offered to school leavers with 6 to 10 points at Grade 12. Available for Zambian students.</p> 
+    </div> 
+    <li onclick="showDetails('scholarship2')">Mutale Nalumango Foundation Scholarship <span class="arrow">▼</span></li> 
+    <div id="scholarship2" class="details"> 
+     <p>Available for Zambian students at Cavendish University.</p> 
+    </div> 
+    <li onclick="showDetails('scholarship3')">FQM Trident Scholarships <span class="arrow">▼</span></li> 
+    <div id="scholarship3" class="details"> 
+     <p>Scholarships offered by First Quantum Minerals for outstanding Zambian students.</p> 
+    </div> 
+    <li onclick="showDetails('scholarship4')">KCM Miners' Children A-Level Scholarship <span class="arrow">▼</span></li> 
+    <div id="scholarship4" class="details"> 
+     <p>Scholarships for the children of miners provided by Konkola Copper Mines.</p> 
+    </div> 
+    <li onclick="showDetails('scholarship5')">Chengelo School Scholarship <span class="arrow">▼</span></li> 
+    <div id="scholarship5" class="details"> 
+     <p>Scholarships available for outstanding students at Chengelo School.</p> 
+    </div> 
+    <li onclick="showDetails('scholarship6')">American International School of Lusaka Beacon Scholarship <span class="arrow">▼</span></li> 
+    <div id="scholarship6" class="details"> 
+     <p>A prestigious scholarship for exceptional students at the American International School of Lusaka.</p> 
+    </div> 
+    <li onclick="showDetails('scholarship7')">Baobab College Beacon Scholarship <span class="arrow">▼</span></li> 
+    <div id="scholarship7" class="details"> 
+     <p>Scholarships for outstanding students at Baobab College.</p> 
+    </div> 
+    <li onclick="showDetails('scholarship8')">United World Colleges (UWC) Scholarship <span class="arrow">▼</span></li> 
+    <div id="scholarship8" class="details"> 
+     <p>Scholarships for the International Baccalaureate Diploma at UWC schools worldwide.</p> 
+    </div> 
+    <li onclick="showDetails('scholarship9')">Mastercard Foundation Scholars Program <span class="arrow">▼</span></li> 
+    <div id="scholarship9" class="details"> 
+     <p>Scholarships for studying at various universities including the University of Cape Town, University of Edinburgh, and others under the Mastercard Foundation.</p> 
+    </div> 
+    <li onclick="showDetails('scholarship10')">Japanese MEXT Scholarship <span class="arrow">▼</span></li> 
+    <div id="scholarship10" class="details"> 
+     <p>Scholarships provided by the Japanese government for undergraduate, graduate, and technical education in Japan.</p> 
+    </div> 
+    <li onclick="showDetails('scholarship11')">Turkiye Burslari Scholarship <span class="arrow">▼</span></li> 
+    <div id="scholarship11" class="details"> 
+     <p>Scholarships for studying in Turkey offered by the Turkish government.</p> 
+    </div> 
+   </ul> 
+  </section> <!-- Loans Section --> 
+  <section id="loans"> 
+   <h2>Loans</h2> 
+   <ul> 
+    <li onclick="showLoanDetails('loan1')">HELSB Loans for Public Universities <span class="arrow">▼</span></li> 
+    <div id="loan1" class="details"> 
+     <p>Student loans for Mulungushi University, Kwame Nkrumah University, Chalimbana University, CBU, UNZA, Mukuba University, and Palabana University provided by the Zambian government through the Higher Education Loans and Scholarships Board (HELSB).</p> 
+    </div> 
+    <li onclick="showLoanDetails('loan2')">HELSB Scholarships for Study Abroad <span class="arrow">▼</span></li> 
+    <div id="loan2" class="details"> 
+     <p>Scholarships provided by HELSB for studying in countries such as Russia, India, Tunisia, Algeria, Egypt, Czech Republic, Ukraine, South Korea, China, Japan (MEXT), and Turkey (Turkiye Burslari).</p> 
+    <div class="scholarship-item">
+    <h3 class="toggle-details">Scholarship Title</h3>
+    <div class="details">
+        <p>Details about this scholarship...</p>
+    </div>
+</div></div> 
+   </ul> 
+  </section> <!-- Events Section --> 
+  <section id="events"> 
+   <h2>Upcoming Events</h2> 
+   <p>Stay tuned for our upcoming scholarship expos and workshops!</p> 
+  </section> <!-- Contact Us Section --> 
+  <section id="contact"> 
+   <h2>Contact Us</h2> 
+   <p>Email: EduAccesszm@gmail.com</p> 
+   <p>Phone: +260 760 088 540</p> 
+   <p>Address: Chingola, Zambia</p> 
+  </section> <!-- Donate Section --> 
+  <section id="donate"> 
+   <h2>Support Our Cause</h2> 
+   <p>Your donations help us continue to provide valuable services to Zambian students. Thank you for your generosity!</p> <button onclick="alert('Donation feature coming soon!')">Donate Now</button> 
+  </section> <!-- Newsletter Section --> 
+  <section id="newsletter"> 
+   <h2>Newsletter</h2> 
+   <form action="#"> <label for="email">Subscribe to our newsletter to stay updated:</label> 
+    <input type="email" id="email" name="email" placeholder="Enter your email"> <button type="submit">Subscribe</button> 
+   </form> 
+  </section> <!-- Footer --> 
+  <footer> 
+   <p>© 2024 EduAccess Zambia. All rights reserved.</p> 
+  </footer> 
+  <script src="script.js"></script> 
+ 
+<style id="dcoder_stylesheet">/* General Styles */
+
+body {
+
+    font-family: 'Poppins', sans-serif;
+
+    background-color: #f4f4f4;
+
+    margin: 0;
+
+    padding: 0;
+
+    color: #333;
+
+}
+
+/* Header Styles */
+
+header {
+
+    background-color: #00aaff;
+
+    color: white;
+
+    padding: 20px;
+
+    text-align: center;
+
+}
+
+header h1 {
+
+    font-family: 'Pacifico', cursive;
+
+    font-size: 1.9rem;
+
+    margin: 0;
+
+}
+
+/* Updated Navigation Bar Styles */
+
+nav ul {
+
+    list-style-type: none;
+
+    margin: 0;
+
+    padding: 0;
+
+    display: flex;
+
+    justify-content:;
+
+    flex-wrap: wrap;
+
+    background-color: #007b8e; /* Darker shade for better contrast */
+
+}
+
+nav ul li {
+
+    margin: 5px 10px;
+
+}
+
+nav ul li a {
+
+    color: white;
+
+    text-decoration: none;
+
+    font-size: 1.2rem; /* Increased font size */
+
+    font-weight: bold;
+
+    padding: 10px 15px; /* Added padding for better visibility */
+
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
+
+}
+
+nav ul li a:hover {
+
+    background-color: #005f73; /* Darker blue for hover */
+
+    color: #e0f7fa; /* Lighter text color on hover */
+
+    border-radius: 5px; /* Rounded edges for the hover effect */
+
+}
+
+/* Main Section Styles */
+
+main {
+
+    padding: 20px;
+
+}
+
+section {
+
+    margin-bottom: 40px;
+
+}
+
+h2 {
+
+    color: #007b8e;
+
+    font-size: 2rem;
+
+    border-bottom: 2px solid #007b8e;
+
+    padding-bottom: 10px;
+
+    margin-bottom: 20px;
+
+}
+
+p {
+
+    line-height: 1.6;
+
+}
+
+/* Scholarship Details */
+
+.details {
+
+    display: none;
+
+    background-color: #e0f7fa;
+
+    padding: 10px;
+
+    margin-top: 10px;
+
+    border-radius: 5px;
+
+}
+
+.details a {
+
+    color: #007b8e;
+
+    text-decoration: none;
+
+}
+
+.details a:hover {
+
+    text-decoration: underline;
+
+}
+
+/* Forms */
+
+form {
+
+    margin: 20px 0;
+
+}
+
+label {
+
+    display: block;
+
+    margin-top: 10px;
+
+}
+
+input, textarea {
+
+    width: 100%;
+
+    padding: 10px;
+
+    margin-top: 5px;
+
+    border: 1px solid #ddd;
+
+    border-radius: 5px;
+
+}
+
+button {
+
+    background-color: #00aaff;
+
+    color: white;
+
+    border: none;
+
+    padding: 10px 20px;
+
+    font-size: 1rem;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    margin-top: 10px;
+
+}
+
+button a {
+
+    color: white;
+
+    text-decoration: none;
+
+}
+
+button:hover {
+
+    background-color: #007b8e;
+
+}
+
+/* Footer Styles */
+
+footer {
+
+    background-color: #007b8e;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 10px;
+
+    position: bottom;
+
+    width: 100%;
+
+    bottom: 10;
+
+}</style><script id="dcoder_script">// Function to show/hide scholarship details
+function showDetails(id) {
+    const details = document.getElementById(id);
+    const arrow = details.previousElementSibling.querySelector('.arrow');
+
+    if (details.style.display === 'block') {
+        details.style.display = 'none';
+        arrow.textContent = '▼';
+    } else {
+        details.style.display = 'block';
+        arrow.textContent = '▲';
+    }
+}
+
+// Function to show/hide loan details
+function showLoanDetails(id) {
+    const details = document.getElementById(id);
+    const arrow = details.previousElementSibling.querySelector('.arrow');
+
+    if (details.style.display === 'block') {
+        details.style.display = 'none';
+        arrow.textContent = '▼';
+    } else {
+        details.style.display = 'block';
+        arrow.textContent = '▲';
+    }
+}</script></body></html>
